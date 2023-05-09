@@ -9,7 +9,7 @@ const links=[
         id:1,
         element:(
             <>
-            <FaLaptopCode className='text-slate-400' size={100}/>
+            <FaLaptopCode className='text-slate-400' size={80}/>
             </>
         ),
         
@@ -21,7 +21,7 @@ const links=[
         id:2,
         element:(
             <>
-            <RiTeamFill className='text-slate-400' size={100}/>
+            <RiTeamFill className='text-slate-400' size={80}/>
             </>
         ),
         
@@ -33,7 +33,7 @@ const links=[
         id:3,
         element:(
             <>
-            <TbBulbFilled className='text-slate-400' size={100}/>
+            <TbBulbFilled className='text-slate-400' size={80}/>
             </>
         ),
         
@@ -45,7 +45,7 @@ const links=[
         id:4,
         element:(
             <>
-            <GiCoffeeCup className='text-slate-400' size={100}/>
+            <GiCoffeeCup className='text-slate-400' size={80}/>
             </>
         ),
         
@@ -59,12 +59,12 @@ const links=[
 const About = () => {
   return (
     <main name="About" className='w-full bg-gradient-to-b from-gray-900  to-black pt-[100px] pb-[400px]'>
-    <section className='px-[25px]  md:px-[60px] lg:px-[60px] xl:px-[100px] w-[100%]'>
+    <section className='px-[20px]  md:px-[60px] lg:px-[60px] xl:px-[100px] w-[100%]'>
         <div>
-            <h1 className='inline   text-5xl font-bold text-white border-b-4 border-gray-500 '>About</h1>
+            <h1 className='inline max-[640px]:text-3xl sm:text-[40px] md:text-[40px] font-bold text-white border-b-4 border-gray-500 '>About</h1>
         </div>
         <div className='mt-16'>
-            <p className=' font-Roboto text-white text-[18px] sm:text-[25px] leading-loose w-[98%]  '> Completed my B.Tech Engineering in Hindustan Institue of Science and Technology at Chennai. 
+            <p className=' font-Roboto text-white text-[18px] sm:text-[18px] leading-loose w-[100%]  '> Completed my B.Tech Engineering in Hindustan Institute of Science and Technology at Chennai. 
                 Afer graduation I took coding as my interest. Later with a passion for FullStack development, learned Front-end development and Back-end Developement.
                 I like building user inerfaces and found stronger in Front-end Development and made it as my primary. I am a self-learner and team player trying to gain and share my knowledge with other developers. I have good experience in developing responsive
                 web based application and willing to expand my knowledge to mobile development and web3 Technologies. Currently I am looking for an opportunity to work as an intern or junior Front-end position to show my skills.
@@ -75,8 +75,8 @@ const About = () => {
                 {links.map(({id,element,heading,text})=>(
                     <li key={id} className='flex lg:mb-5 mb-16 text-center   flex-col justify-center items-center w-[45%] lg:w-[23%]  text-white'>
                         {element}
-                        <p className='mt-2 text-[20px] text-blue-500 font-bold sm:text-[25px] '>{heading}</p>
-                        <p className='mt-2 text-gray-400 sm:text-[23px]'>{text}</p>
+                        <p className='mt-2 text-[20px] text-blue-500 font-bold sm:text-[20px] '>{heading}</p>
+                        <p className='mt-2 text-gray-400 sm:text-[18px]'>{text}</p>
                     </li>
                 ))}
             </ul>

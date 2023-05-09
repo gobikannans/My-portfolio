@@ -14,7 +14,7 @@ const navlinks=[
     },
     {
         id:'3',
-        link:"TechStack"
+        link:"Tech Stack"
     },
     {
         id:'4',
@@ -31,16 +31,16 @@ function Header(){
     const[nav,setNav]=useState(false)
 
     return(
-        <main  className="w-full py-8 bg-black bg-gradient-to-r from-black shadow-md shadow-gray-900 fixed">
-            <nav className="flex flex-row justify-between items-center px-[30px] md:px-[60px] lg:px-[60px] xl:px-[100px] w-full">
+        <main  className="w-full max-[450px]:py-5   py-8 bg-black bg-gradient-to-r from-black shadow-md shadow-gray-900 fixed">
+            <nav className="flex flex-row justify-between items-center max-[451px]:px-[20px] px-[30px] md:px-[60px] lg:px-[60px] xl:px-[100px] w-full">
             <Link to="Home" duration={500} smooth className="">
-                    <h1 className="font-Abril text-4xl  text-white ">GK .</h1>
+                    <h1 className="font-Abril text-3xl  text-white ">GK .</h1>
                 </Link> 
                 <ul className="hidden lg:flex justify-between lg:w-[55%] xl:w-[40%]">
                     {navlinks.map(({id,link})=>(
-                        <Link to={link} smooth offset={-80}  duration={500}>
+                        <Link key={id} to={link} smooth offset={-60}  duration={500}>
                         <li key={id} className="px-4 hover:scale-[1.12] duration-200 smooth">
-                            <p className="text-gray-500 font-bold text-[18px] cursor-pointer ">{link}</p>
+                            <p className="text-gray-500 font-bold text-[15px] hover:text-blue-500 duration-300 cursor-pointer ">{link}</p>
                         </li>
                         </Link>
                     ))}
