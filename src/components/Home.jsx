@@ -40,7 +40,7 @@ const links=[
           <AiFillFile size={30}/> 
           </>
       ),
-      href:"https://drive.google.com/file/d/1kolVtl9-zjYrC7GQpLE20VrqA73qJDxi/view?usp=sharing",
+      href:"https://drive.google.com/file/d/1bT3pxnD2K93xldAlytvPL-LHAOf07RMY/view?usp=sharing",
       download:true,
   }
 ]
@@ -48,7 +48,7 @@ const links=[
 const Home = () => {
   return (
     <main name="Home" className='h-screen w-full  flex flex-col justify-center items-center bg-gradient-to-b from-black via-black to-gray-900'>
-        <section className='px-[30px] pr-[0px] md:px-[60px] lg:px-[100px]   flex flex-row  justify-center items-center w-[80%] h-full max-[1680px]:justify-between max-[1719px]:w-[100%]'>
+        <section className='px-[30px] pr-[0px] md:px-[60px] lg:px-[60px] xl:px-[100px] flex flex-row  justify-center items-center w-[80%] h-full max-[1680px]:justify-between max-[1719px]:w-[100%]'>
           <div className='flex flex-col justify-center items-start w-[100%] min-[1000px]:h-full' >
             <h1 className='text-slate-500 font-bold max-[450px]:text-[28px] text-[35px] sm:text-[50px]'>Hello !</h1>
             <h1 className=' text-slate-500 max-[450px]:text-[27px] text-[35px] mt-[10px] sm:text-[50px] font-bold font-Roboto '>I'm <span className='text-blue-500'> Gobi Kannan</span> </h1>

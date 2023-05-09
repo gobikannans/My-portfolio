@@ -32,7 +32,7 @@ function Header(){
 
     return(
         <main  className="w-full py-8 bg-black bg-gradient-to-r from-black shadow-md shadow-gray-900 fixed">
-            <nav className="flex flex-row justify-between items-center px-[30px] md:px-[60px] lg:px-[100px] w-full">
+            <nav className="flex flex-row justify-between items-center px-[30px] md:px-[60px] lg:px-[60px] xl:px-[100px] w-full">
             <Link to="Home" duration={500} smooth className="">
                     <h1 className="font-Abril text-4xl  text-white ">GK .</h1>
                 </Link> 

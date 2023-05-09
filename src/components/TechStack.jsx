@@ -105,7 +105,7 @@ const links=[
 const TechStack = () => {
   return (
     <main name="TechStack" className='w-full bg-gradient-to-b from-black via-black to-gray-900 pt-[100px] pb-[400px] '>
-        <section className='px-[20px] md:px-[60px] lg:px-[100px]'>
+        <section className='px-[20px] md:px-[60px] lg:px-[60px] xl:px-[100px]'>
         <div>
             <h1 className='inline  text-5xl font-bold text-white border-b-4 border-gray-500 '>TechStack</h1>
             <p className='text-white mt-10 text-[23px]'>These are the tech stacks I worked.</p>

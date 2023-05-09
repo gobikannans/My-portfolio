@@ -59,7 +59,7 @@ const links=[
 const About = () => {
   return (
     <main name="About" className='w-full bg-gradient-to-b from-gray-900  to-black pt-[100px] pb-[400px]'>
-    <section className='px-[25px]  md:px-[60px] lg:px-[100px] w-[100%]'>
+    <section className='px-[25px]  md:px-[60px] lg:px-[60px] xl:px-[100px] w-[100%]'>
         <div>
             <h1 className='inline   text-5xl font-bold text-white border-b-4 border-gray-500 '>About</h1>
         </div>

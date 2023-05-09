@@ -19,7 +19,7 @@ const links=[
         heading:"Food Munch",
         href:"https://gobikannanfm.ccbp.tech/",
         code:"https://github.com/gobikannans/Food-Munch.git",
-        bio: "Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers",
+        bio: "Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers, etc.",
         tech:"HTML, CSS, Bootstrap"
     },
     {
@@ -64,10 +64,10 @@ const links=[
         id:6,
         src:portfolio,
         heading:"My Portfolio",
-        href:"https://gobikannaneg.ccbp.tech/",
-        code:"https://github.com/gobikannans/ReactJS-Emoji-Game.git",
-        bio: "Developed responsive Emoji memory game where users can win it by clicking unique emoji each time till all displayed emojis are clicked. All emojis positions will be randomized after each click",
-        tech:"React JS, CSS, Bootstrap"
+        href:"https://gobikannans.netlify.app",
+        code:"https://github.com/gobikannans/My-portfolio.git",
+        bio: "Developed my own Portfolio by using the following techs.",
+        tech:"React JS, HTML, Tailwind CSS, JavaScript"
     },
 
     {
@@ -99,15 +99,15 @@ const links=[
 const Projects = () => {
   return (
     <main name="Projects" className='w-full bg-gradient-to-b  from-gray-900 via-black  to-black pt-[100px] pb-[200px]'>
-        <section className='px-[20px] md:px-[60px] lg:px-[100px] '>
+        <section className='px-[20px] md:px-[60px] lg:px-[60px] xl:px-[100px]'>
         <div>
             <h1 className='inline  text-5xl font-bold text-white border-b-4 border-gray-500 '>Projects</h1>
             <p className='text-white mt-10 text-[23px]'>Some of the Front-end projects I done from scratch.</p>
         </div>
-        <div className='mt-20'>
-            <ul className='flex justify-between flex-wrap list-style-none p-0'>
+        <div className='mt-20 3xl:ml-[340px] '>
+            <ul className='flex justify-between   flex-wrap list-style-none '>
                {links.map(({id,heading,src,href,code,bio,tech,login,nonlogin})=>(
-                  <li key={id} className='m-10 ml-0 mr-0 group max-[1024px]:shadow-md max-[1024px]:shadow-blue-500 px-3 md:px-5 rounded-[20px] flex flex-col py-8 items-center md:w-[48%] lg:w-[46%] xl:w-[30%]   border-gray-500 border-4 shadow-md hover:shadow-blue-500 duration-300'>
+                  <li key={id} className={`m-10 ml-0 mr-0  group max-[1024px]:shadow-md max-[1024px]:shadow-blue-500 px-3 md:px-5 rounded-[20px] flex flex-col py-8 items-center md:w-[48%] lg:w-[47%] xl:w-[30%] lg:hover:scale-104   border-gray-500 border-4 shadow-md hover:shadow-blue-500 duration-300`}>
                   <p className=' max-[1024px]:text-blue-500 mt-3 mb-0 self-start text-[25px] md:text-[25px] font-bold text-slate-400  group-hover:text-blue-500 lg:text-[30px]'>{heading}</p>
                   <img className='w-[500px] mt-5' src={src} alt={src}/>
 
@@ -118,11 +118,11 @@ const Projects = () => {
                           </p>
                        {login}
                        {nonlogin}
-                      <div className=' flex justify-between items-center self-center w-[90%] md:w-[90%] lg:w-[90%] xl:w-[60%] mt-5'>
-                          <button className='w-[120px] text-white  bg-gradient-to-r from-blue-600 to-pink-600 text-[21px] px-4 py-3 rounded-lg hover:scale-105 hover:shadow-md hover:shadow-purple-500 duration-500 '>
+                      <div className=' flex justify-between items-center self-center w-[90%] md:w-[95%] lg:w-[90%] xl:w-[80%] mt-5'>
+                          <button className='w-[150px] md:w-[120px] lg:w-[150px] text-white  bg-gradient-to-r from-blue-600 to-pink-600 text-[21px] lg:mr-5 px-4 py-3 rounded-lg hover:scale-105 hover:shadow-md hover:shadow-purple-500 duration-500 '>
                             <a className='flex justify-center items-center' href={href} target="_blank" rel="noreferrer ">Live <span className='ml-3'><ImEarth/></span></a>  
                           </button>
-                          <button className='w-[120px] text-white flex justify-center items-center bg-gradient-to-r from-blue-600 to-gray-600 text-[21px] px-4 py-3 rounded-lg hover:scale-105 hover:shadow-md hover:shadow-gray-500 duration-500 '>
+                          <button className='w-[150px] md:w-[120px] lg:w-[150px] text-white flex justify-center items-center bg-gradient-to-r lg:mr-5 from-blue-600 to-gray-600 text-[21px] px-4 py-3 rounded-lg hover:scale-105 hover:shadow-md hover:shadow-gray-500 duration-500 '>
                           <a className='flex justify-between items-center' href={code} target="_blank" rel="noreferrer"> Code <span className='ml-3'><AiFillGithub/></span></a>
                           </button>
                       </div>

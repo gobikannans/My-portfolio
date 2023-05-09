@@ -38,7 +38,7 @@ const links=[
             </>
         ),
         style:"rounded-bl-md",
-        href:"https://drive.google.com/file/d/1kolVtl9-zjYrC7GQpLE20VrqA73qJDxi/view?usp=sharing",
+        href:"https://drive.google.com/file/d/1bT3pxnD2K93xldAlytvPL-LHAOf07RMY/view?usp=sharing",
         download:true,
     }
 ]
