@@ -104,7 +104,7 @@ const links=[
 
 const TechStack = () => {
   return (
-    <main name="TechStack" className='w-full bg-gradient-to-b from-black via-black to-gray-900 pt-[100px] pb-[300px] '>
+    <main name="Tech Stack" className='w-full bg-gradient-to-b from-black via-black to-gray-900 pt-[100px] pb-[300px] '>
         <section className='px-[20px] md:px-[60px] lg:px-[60px] xl:px-[100px]'>
         <div>
             <h1 className='inline max-[640px]:text-3xl sm:text-[40px] md:text-[40px] font-bold text-white border-b-4 border-gray-500 '>Tech Stack</h1>
