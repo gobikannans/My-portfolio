@@ -50,7 +50,8 @@ const links=[
         ),
         
         heading:"COFFEE",
-        text:"Love to drink coffee"
+        text:"Love to drink coffee",
+        style:""
 
     },
 ]
@@ -72,11 +73,11 @@ const About = () => {
             </p>
         </div>
             <ul className='w-90% mt-20 flex justify-between flex-wrap items-center '>
-                {links.map(({id,element,heading,text})=>(
-                    <li key={id} className='flex lg:mb-5 mb-16 text-center   flex-col justify-center items-center w-[45%] lg:w-[23%]  text-white'>
+                {links.map(({id,element,heading,text,style})=>(
+                    <li key={id} className={` ${style} flex lg:mb-5 mb-16 text-center   flex-col justify-center items-center w-[45%] lg:w-[23%]  text-white`}>
                         {element}
                         <p className='mt-2 max-[450px]:text-[18px] text-[20px] text-blue-500 font-bold sm:text-[20px] '>{heading}</p>
-                        <p className='mt-2 max-[450px]:text-[16px] text-gray-400 sm:text-[18px]'>{text}</p>
+                        <p className='mt-2 max-[450px]:text-[15px] text-gray-400 sm:text-[18px]'>{text}</p>
                     </li>
                 ))}
             </ul>
